@@ -1,0 +1,74 @@
+:root {
+    --cor: rgb(0, 0, 255);
+    --cor-clara: rgb(128, 128, 255);
+    --cor-escura: rgb(0, 0, 128);
+    --cor-muito-clara: rgb(191, 191, 255);
+    --cor-muito-escura: rgb(0, 0, 64);
+    --cor-pouco-clara: rgb(64, 64, 255);
+    --cor-pouco-escura: rgb(0, 0, 191);
+    --margem-grande: 8px 8px 8px 8px;
+    --margem-texto: 4px 8px 4px 8px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+button {
+    background-color: var(--cor-muito-escura);
+    color: white;
+    cursor: pointer;
+    font-family: serif;
+    font-size: 16px;
+    margin: var(--margem-grande);
+    padding: var(--margem-texto);
+}
+
+button:hover {
+    background-color: var(--cor-escura);
+}
+
+button:active {
+    background-color: var(--cor-pouco-escura);
+}
+
+h1 {
+    font-family: serif;
+    font-size: 32px;
+    margin: var(--margem-grande);
+}
+
+input {
+    font-family: serif;
+    font-size: 16px;
+    margin: var(--margem-grande);
+    padding: var(--margem-grande);
+    width: 128px;
+}
+
+label {
+    font-family: serif;
+    font-size: 16px;
+    margin: var(--margem-grande);
+    padding: var(--margem-grande);
+    text-align: right;
+    width: 128px;
+}
+
+textarea {
+    font-family: serif;
+    font-size: 16px;
+    margin: var(--margem-grande);
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
